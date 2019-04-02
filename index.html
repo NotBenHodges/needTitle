@@ -3,8 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Cairo's Techniques</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    The trend-
+    <h1>Cairo's Techniques</h1>
+    <p>1. Decomposing a Time Series- Many graphs use straight lines
+    to display general trends but that <br> does not give an accurate
+    depiction of the trend. Instead, we can implement a line that <br>
+    follows the trend nonlinearly by basing it on a moving average.
+    We can split the time series into <br> chunks and calculate the average
+    of each chunk to give us a more accurate depiction of the trend.</p>
+    <p>2. Visualizing Indexes- Time series data can also be represented
+    using zero-based indexes. <br> These indexes can be calculating by using
+    the formula for percent change:</p>
+    <p class="f">% Change = ((Each Score - Index Origin) / Index Origin) x 100</p>
+    <p>3. Logarithmic Transformation- If the current chart does not
+    give an overall idea of the change rate, <br> then a log Transformation
+    can be helpful. A base is decided that determines the increase of
+    each unit. <br> For example, a log 2 scale means that each incremental
+    increase in the graph is not 1 additional increment, but <br> twice the
+    size of the unit before it.</p>
   </body>
 </html>
